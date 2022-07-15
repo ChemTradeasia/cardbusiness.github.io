@@ -1,1 +1,121 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+  section {margin: 0;width: 100%;background-color: #FAFCFF;display: flex;justify-content: center;}
+  .feedback {max-width:720px;}
+  .center {text-align:center}
+  p {font-size: 18px}
+  h3.text-label {color:#123c69;margin:0;font-size: 16px;}
+  input.field-form, textarea.field-form, select.field-form {
+    width: 100%;
+    padding: 7px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #123C69;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    align-self: center;
+  }
+  
+  input.submit-form {
+    width: 100%;
+    background-color: #123C69;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  input.submit-form:hover {
+    background-color: #123c69;
+    color: #ffffff;
+  }
+
+  .detail-list-form {
+    border-radius: 5px;
+    padding: 5px;
+    width: 360px;
+  }
+  .color-red {color:red}
+
+</style>
+</head>
+<body>
+
+  <section>
+    <div class="feedback">
+      <div class="center" style="margin-bottom: 15px;background-color: #FAFCFF;">
+        <img src="https://cdn.jsdelivr.net/gh/ChemTradeasia/Website2018CDN/assets/img/logo-warna.png" alt="Girl in a jacket" style="width:150px;">
+        <h3 class="text-label">Let’s Collaborate With Us</h3>
+      </div>
+      <form enctype="multipart/form-data" action="#" method="post">
+        <div style="padding: 5px;">
+          <div style="display:flex">
+            <div class="detail-list-form">
+              <h3 class="text-label">Name <b class="color-red">*</b></h3>
+              <input type="text" class="field-form" name="email" value="" \>
+            </div>
+          </div>
+          <div style="display:flex">
+            <div class="detail-list-form">
+              <h3 class="text-label">Company Name <b class="color-red">*</b></h3>
+              <input type="text" class="field-form" name="email" value="" \>
+            </div>
+          </div>
+          <div style="display:flex">
+            <div class="detail-list-form">
+              <h3 class="text-label">Job Title <b class="color-red">*</b></h3>
+              <input type="text" class="field-form" name="email" value="" \>
+            </div>
+          </div>
+          <div style="display:flex">
+            <div class="detail-list-form">
+              <h3 class="text-label">Interest <b class="color-red">*</b></h3>
+              <div style="display:flex;justify-content: space-between;height:35px">
+                <input type="checkbox" style="width:20px;height:20px;border:1px solid black">
+                <h3 class="text-label" style="align-self: center;">Purchase</h3><br>
+                <input type="checkbox" style="width:20px;height:20px;border:1px solid black">
+                <h3 class="text-label" style="align-self: center;">Sales</h3><br>
+                <input type="checkbox" style="width:20px;height:20px;border:1px solid black">
+                <h3 class="text-label" style="align-self: center;">Other</h3><br>
+              </div>
+            </div>
+          </div>
+          <div style="display:flex">
+            <div class="detail-list-form">
+              <h3 class="text-label">Email <b class="color-red">*</b></h3>
+              <input type="text" class="field-form" name="email" value="" \>
+            </div>
+          </div>
+          <div style="display:flex">
+            <div class="detail-list-form">
+              <h3 class="text-label">Phone Number <b class="color-red">*</b></h3>
+              <input type="text" class="field-form" name="email" value="" \>
+            </div>
+          </div>
+          <div style="display:flex">
+            <div class="detail-list-form">
+              <h3 class="text-label">Message <b class="color-red">*</b></h3>
+              <textarea class="field-form" rows="3" name="message" \></textarea>
+            </div>
+          </div>
+          <input class="submit-form" type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </section>
+    
+    <p style="display:none">Copyright © 2022 Tradeasia International.<br>
+    All rights reserved. You are receiving this email because you're registered through our <a href="https://www.chemtradeasia.com/en/home" style="color:#ffffff" target="-blank">website.</a><br>
+    Click here to <a href="{{Unsubscribe}}" rel="nofollow,noreferrer" style="color:White;text-decoration:underline;">unsubscribe</a> if you no longer wish to receive any newsletter.</p>
+
+</body>
+</html>
+
+
